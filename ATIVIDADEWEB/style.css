@@ -1,0 +1,102 @@
+/* Fonte geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color:#D4AF37;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+}
+
+header .subtitulo {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.foto {
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+/* Seções */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #D4AF37;
+    border-bottom: 2px solid #D4AF37;
+    padding-bottom: 5px;
+}
+
+h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+}
+
+/* Rodapé */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: #4da6ff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    body {
+        font-size: 0.95em;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    .foto {
+        width: 90px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
